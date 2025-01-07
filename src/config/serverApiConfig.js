@@ -7,7 +7,7 @@ export const API_BASE_URL =
   process.env.NODE_ENV == "production" ||
   process.env.REACT_APP_DEV_REMOTE == "remote"
     ? "https://erp-crm.idurarapp.com/api/"
-    : "http://my-elb-707195685.ap-south-1.elb.amazonaws.com/api/"
+    : "http://elb-1210909689.ap-south-1.elb.amazonaws.com/api/"
 
 // export const API_BASE_URL = "https://wild-puce-reindeer-sari.cyclic.app/api/";
 export const ACCESS_TOKEN_NAME = "x-auth-token"
